@@ -1,0 +1,12 @@
+@media screen and (min-width: 550px) {
+#giocatori li {
+	width: 25%;
+}
+}
+
+@media screen and (min-width: 800px) {
+
+#giocatori li {
+	width: 20%;
+}
+}
