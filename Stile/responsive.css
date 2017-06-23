@@ -2,6 +2,20 @@
 #giocatori li {
 	width: 25%;
 }
+
+.Portieri li:nth-child(4) {
+    clear: left;
+  }
+
+.Difensori li:nth-child(7) {
+    clear: left;
+  }
+
+.Centrocampisti li:nth-child(4) {
+    clear: left;
+  }
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -9,4 +23,17 @@
 #giocatori li {
 	width: 20%;
 }
+
+.Portieri li:nth-child(4) {
+    clear: none;
+  }
+
+.Difensori li:nth-child(7) {
+    clear: none;
+  }
+
+.Centrocampisti li:nth-child(4) {
+    clear: none;
+  }
+
 }
