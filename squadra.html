@@ -10,10 +10,15 @@
 	</head>
 
 	<body>
-		<header>
+		<div class="container">
+		<header class="clearfix">
+		<a href="#">
 		<img src="Immagini/Logo.png" class="logo">
+		</a>
+			<div class="main-header">
 			<h1>F.C. inter</h1>
 			<h2>Stagione 2016/2017</h2>
+			</div>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -22,10 +27,19 @@
 				</ul>
 			</nav>
 		</header>
-		<div id="wrapper">
+		<div class="banner">
+				
+			</div>
+		<div id="wrapper" class="clearfix">
 		<section id="giocatori">
 			<h3>Squadra</h3>
-				<h4>Portieri</h4>
+			<ul class="ruoli">
+				<li> <a href="#Portieri">Portieri</a></li>
+				<li> <a href="#Difensori">Difensori</a></li>
+				<li> <a href="#Centrocampisti">Centrocampisti</a></li>
+				<li> <a href="#Attaccanti">Attaccanti</a></li>
+			</ul>
+				<h4 id="Portieri">Portieri</h4>
 					<ul class="Portieri">
 						<li>
 						<p>Samir Handanovic</p>
@@ -52,7 +66,7 @@
 						</li>
 					</ul>
 
-					<h4>Difensori</h4>
+					<h4 id="Difensori">Difensori</h4>
 					<ul class="Difensori">
 						<li>
 						<p>Marco Andreolli</p>
@@ -115,7 +129,7 @@
 						</li>
 					</ul>
 
-					<h4>Centrocampisti</h4>
+					<h4 id="Centrocampisti">Centrocampisti</h4>
 					<ul class="Centrocampisti">
 						<li>
 						<p>Marcelo Brozovic</p>
@@ -148,7 +162,7 @@
 						</li>
 					</ul>
 
-					<h4>Attaccanti</h4>
+					<h4 id="Attaccanti">Attaccanti</h4>
 					<ul class="Attaccanti">
 						<li>
 						<p>Jonathan Biabiany</p>
@@ -200,5 +214,15 @@
 					</ul>
 		</section>
 		</div>
+		</div>
+		<footer>
+				<a href="https://www.facebook.com/Inter" target="blank">
+					<img src="Immagini/facebook1.png" class="icona-social">
+				</a>
+				<a href="https://twitter.com/Inter" target="blank">
+					<img src="Immagini/twitter1.png" class="icona-social">
+				</a>
+				<p> <a href="http://www.inter.it">Official Website</a></p>
+			</footer>
 	</body>
 </html>

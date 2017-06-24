@@ -16,6 +16,15 @@
   }
 
 
+.main-header {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 5px;
+	left: 5%;
+}
 }
 
 @media screen and (min-width: 800px) {
@@ -36,4 +45,31 @@
     clear: none;
   }
 
+.main-header {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 5px;
+	left: 10%;
+}
+}
+
+
+@media screen and (min-width: 1000px) {
+
+#giocatori li {
+	width: 20%;
+}
+
+.main-header {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 5px;
+	left: 20%;
+}
 }
