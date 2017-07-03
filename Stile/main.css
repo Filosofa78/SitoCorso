@@ -67,6 +67,7 @@ nav li {
 	list-style-type: none;
 
 
+
 }
 
 nav li:hover {
@@ -104,7 +105,8 @@ BANNER
 
 .banner {
 	padding: 600px 0 30px 0;
-	background-image: url(../Immagini/Sfondo.jpg);
+	background-image: 	linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+						url(../Immagini/Sfondo.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -147,6 +149,8 @@ SQUADRA
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
+	
+	
 
 }
 
@@ -159,6 +163,8 @@ SQUADRA
 	text-decoration: none;
 	color: #000000;
 	padding: 5% 5px;
+	width: 25%;
+	
 }
 
 #giocatori p {
@@ -175,6 +181,7 @@ SQUADRA
 
 #giocatori ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 
@@ -272,4 +279,7 @@ footer p a {
 footer a {
 	text-decoration: none;
 }
+
+
+
 

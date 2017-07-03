@@ -1,6 +1,7 @@
 @media screen and (min-width: 550px) {
 #giocatori li {
 	width: 25%;
+	
 }
 
 .Portieri li:nth-child(4) {

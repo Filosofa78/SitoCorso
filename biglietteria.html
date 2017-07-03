@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>F.C. Internazionale</title>
+		<link rel="stylesheet" type="text/css" href="Stile/normalize.css">
+		<link rel="stylesheet" type="text/css" href="Stile/main.css">
+		<link rel="stylesheet" type="text/css" href="Stile/responsive.css">
+		<link rel="stylesheet" type="text/css" href="Stile/tab_form.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<img src="Immagini/Logo.png" class="logo">
+				<div class="main-header">
+				<h1>F.C. inter</h1>
+				<h2>Stagione 2016/2017</h2>
+				</div>
+				<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="squadra.html">Squadra</a></li>
+					<li><a href="allenatore.html">Allenatore</a></li>
+					<li><a href="classifica.html">Classifica</a></li>
+					<li><a href="biglietteria.html" class="selected">Biglietteria</a></li>
+				</ul>
+				</nav>
+			</header>
+			<div class="banner">
+				
+			</div>
+			<div id="wrapper" class="clearfix">
+				<form action="index.html" method="post">
+					<h2 class="iscrizione">Iscriviti</h2>
+					<fieldset>
+						<legend><span class="number">1</span>Dati di Accesso</legend>
+						<label for="username">Username</label>
+						<input type="text" name="user_name" id="username">
+						<label for="password">Password</label>
+						<input type="password" name="user_password" id="password">
+					</fieldset>
+					<fieldset>
+						<legend><span class="number">2</span>Dati Anagrafici</legend>
+						<label for="name">Cognome e Nome</label>
+						<input type="text" name="name" id="name">
+						<label for="birthdate">Data di nascita</label>
+						<input type="date" name="date" id="birthdate">
+						<label for="address">Indirizzo</label>
+						<input type="text" name="address" id="address">
+						<label for="add_number">N. Civico</label>
+						<input type="number" name="add_number" id="add_number">
+						<label for="cap_number">CAP</label>
+						<input type="number" name="cap_number" id="cap_number">
+						<label for="city">Città</label>
+						<input type="text" name="city" id="city">
+						<label for="prov_city">Provincia</label>
+						<input type="text" name="prov_city" id="prov_city">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email">
+					</fieldset>
+
+					<fieldset class="stadio">
+						<legend><span class="number">3</span>Posto</legend>
+						<label for="posto">Scegli il posto</label>
+						<img src="Immagini/mappa.png">
+						<select id="posto" name="posto">
+							<optgroup label="Primo Anello">
+								<optgroup label="Rosso" class="rosso">
+									<option>Poltroncina Centrale (D-F-O-P-R-S)</option>
+									<option>Centro-Laterale (A-B-C-G-L-M-N-H-I-T-V-Z)</option>
+									<option>Laterale (posti X, Y, J, K)</option>
+								</optgroup>
+								<optgroup label="Arancio" class="arancio">
+									<option>Tribuna Centrale (158-160-162-164)</option>
+									<option>Poltrona Centrale (159-161)</option>
+									<option>Centro-Laterale (155-156-157-163-165-166)</option>
+									<option>Laterale (da 149 a 154, da 167 a 172)</option>
+								</optgroup>
+								<optgroup label="Blu" class="blu">
+									<option>Centrale (da 105 a 108)</option>
+									<option>Semi Centrale (da 101 a 104, da 109 a 112)</option>
+								</optgroup>
+								<optgroup label="Verde" class="verde">
+									<option>Centrale (da 141 a 144)</option>
+									<option>Semi Centrale (da 137 a 140, da 145 a 148)</option>
+								</optgroup>
+								
+							</optgroup>
+							<optgroup label="Secondo Anello">
+								<optgroup label="Rosso" class="rosso">
+									<option>Centrale (227-228, da 229 a 232)</option>
+									<option>Centro-Laterale (225-226, 233-234)</option>
+									<option>Laterale (da 221 a 224, da 235 a 238)</option>
+								</optgroup>
+								<optgroup label="Arancio" class="arancio">
+									<option>Centrale (263-265-266-268)</option>
+									<option>Centro-Laterale (267-269-261-259-262-264-270-272)</option>
+									<option>Laterale (da 271 a 276, da 255 a 258, 260)</option>
+								</optgroup>
+								<optgroup label="Blu" class="blu">
+									<option>Centrale (da 207 a 213)</option>
+									<option>Laterale (da 214 a 219, da 201 a 206)</option>
+								</optgroup>
+								<optgroup label="Verde" class="verde">
+									<option>Centrale (da 243 a 249)</option>
+									<option>Laterale (da 239 a 242, da 250 a 254)</option>
+								</optgroup>
+							</optgroup>
+							<optgroup label="Terzo Anello">
+								<optgroup label="Rosso" class="rosso">
+									<option>Centrale (da 327 a 332)</option>
+									<option>Centro-Laterale (da 333 a 336, 325-326)</option>
+									<option>Laterale (da 319 a 322, da 337 a 342)</option>
+								</optgroup>
+								<optgroup label="Blu" class="blu">
+									<option>Centrale (307-309-310-312)</option>
+									<option>Laterale (da 301 a 306, 308, 311, da 313 a 318)</option>
+								</optgroup>
+								<optgroup label="Verde" class="verde">
+									<option>Centrale (da 349 a 352)</option>
+									<option>Laterale (da 343 a 348, da 353 a 360)</option>
+								</optgroup>
+							</optgroup>
+							<label>Abbonamento o partita singola?</label>
+				            <input type="radio" id="abbonamento" value="abbonamento" name="sottoscrizione"><label for="abbonamento" class="match">Abbonamento</label><br>
+				            <input type="radio" id="match" value="match" name="sottoscrizione"><label for="match" class="match">Partita</label>
+						</select>
+						<label>Vuoi ricevere la newsletter?</label>
+				            <input type="radio" id="si_news" value="si_news" name="newsletter"><label for="si_news" class="news">Sì</label><br>
+				            <input type="radio" id="no_news" value="no_news" name="newsletter"><label for="no_news" class="news">No</label>
+
+				         <label>Interessi:</label>
+				            <input type="checkbox" id="campionato" name="campionato"><label for="campionato" class="news">Serie A</label><br>
+				            <input type="checkbox" id="coppa" name="coppa"><label for="coppa" class="news">Coppa Italia</label><br>
+				            <input type="checkbox" id="allenamenti" name="allenamenti"><label for="allenamenti" class="news">Allenamenti a porte aperte</label><br>
+				            <input type="checkbox" id="mercato" name="mercato"><label for="mercato" class="news">Mercato</label>
+				            </fieldset>
+
+				            <button type="submit">Sottoscrivi</button>
+									
+				</form>
+
+			</div>
+		</div>
+			<footer>
+				<a href="https://www.facebook.com/Inter" target="blank">
+					<img src="Immagini/facebook1.png" class="icona-social">
+				</a>
+				<a href="https://twitter.com/Inter" target="blank">
+					<img src="Immagini/twitter1.png" class="icona-social">
+				</a>
+				<p> <a href="http://www.inter.it">Official Website</a></p>
+			</footer>
+	</body>
+</html>

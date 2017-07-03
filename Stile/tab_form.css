@@ -1,0 +1,243 @@
+/*******************************************
+CLASSIFICA
+******************************************/
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: bold;
+  background: #a29161;
+  color: #000;
+  border-bottom: 10px solid #ffffff;
+
+}
+
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: bold;
+  color: #000000;
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+  font-weight: 300;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(1) {
+	background-color: #00e600;
+}
+
+tbody tr:nth-last-child(-n+3) {
+	background-color: #ff0000;
+}
+
+tbody tr:nth-child(2) {
+	background-color: #ccff33;
+}
+
+tbody tr:nth-child(3) {
+	background-color: #ccff33;
+}
+
+tbody tr:nth-child(4) {
+	background-color: #ccccff;
+}
+
+tbody tr:nth-child(5) {
+	background-color: #ccccff;
+}
+
+.col1 {
+	background-color: #00e600;
+}
+
+.col2 {
+	background-color: #ccff33;
+}
+
+.col3 {
+	background-color: #ccccff;
+}
+
+.col4 {
+	background-color: #ff0000;
+}
+
+dt {
+	width: 400px;
+	height: 25px;
+	margin-bottom: 10px;
+
+}
+
+
+
+
+/*******************************************
+FORM
+******************************************/
+
+
+form {
+  /*max-width: 800px;*/
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.iscrizione {
+  margin: 0 0 30px 0;
+  text-align: center;
+  color: #000000;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #0069aa;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+.number {
+  color: #0069aa;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bolder;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.rosso {
+  color: red;
+}
+
+.arancio {
+  color: orange;
+}
+
+.blu {
+  color: blue;
+}
+
+.verde {
+  color: green;
+}
+
+option {
+  color: black;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #0069aa;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #004f80;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+
+label.news {
+  font-weight: 300;
+  display: inline;
+}
+
+#no_news {
+  margin-bottom: 25px;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+ {
+  margin: 0 4px 8px 0;
+}
+
+label.match {
+  font-weight: 300;
+  display: inline;
+}
+
+#match {
+  margin-bottom: 25px;
+}
+
